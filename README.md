@@ -12,3 +12,5 @@ In main method, there are card objects which are instances of card types and the
 All this tree methods are static and located in abstract PayDesk class. Purchase value and discount rate are forwarded to disc method. Purchase value and discount are forwarded to total method. Object of the specific card is forwarded to discRate method. The discRate method calls getDiscRate method for the specific card.
 
 The signature of getDiscRate method is located in Card class. The previous month turn over is forwarded to getDiscRate method. Logic for calculating discount rate is different for every type of the card, so this method's body is implemented in every subclass separately. That means that BronzeCard, SilverCard and GoldCard classes are subclasses of Card class.
+
+Used: Java, OOP
